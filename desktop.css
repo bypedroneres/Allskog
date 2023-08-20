@@ -46,7 +46,20 @@ body {
 .fixed-header .search-button {
     display: flex;
     align-items: center;
+    height: 54px;
+    width: 154px;
     gap:14px;
+    justify-content: center;
+}
+
+.fixed-header .search-button:hover {
+    display: flex;
+    align-items: center;
+    height: 54px;
+    width: 154px;
+    gap:14px;
+    border-radius: 16px;
+    border: 2px solid var(--primary-black);
     justify-content: center;
 }
 
@@ -62,18 +75,29 @@ body {
     justify-content: center;
 }
 
+
+
 .login-button:hover {
    background-color:var(--primary-black);
    color:var(--primary-white);
 
 }
 
+.points:hover svg {
+    fill: var(--primary-white); 
+}
+
+.points:hover line,
+.points:hover path {
+    stroke: var(--primary-white);
+}
+
 .login-button:hover svg {
      fill: var(--primary-white); 
 }
 
-
-.loggin-button:hover path {
+.loggin-button:hover line,
+.loggin-button:hover {
     stroke: var(--primary-black); 
 }
 
@@ -304,7 +328,7 @@ body.mega-menu-active .fixed-header .search-button img {
     align-items: flex-start;
     gap: 60px;
     margin-top: 550px;
-    margin-left: 100px;
+    margin-left: 160px;
     margin-right: 100px;
     margin-bottom: 48px;
 }
@@ -335,6 +359,8 @@ body.mega-menu-active .fixed-header .search-button img {
     font-size: 20px;
     margin: 0; 
 }
+
+/* SEARCH RECTANGLE */
 
 .large-rectangle {
     width: 1240px;
@@ -403,6 +429,8 @@ body.mega-menu-active .fixed-header .search-button img {
     border: 2px solid var(--primary-black);
 }
 
+/* SHAREHOLDER */
+
 .second-group {
     display: flex;
     padding: 80px 120px;
@@ -431,7 +459,7 @@ body.mega-menu-active .fixed-header .search-button img {
 }
 
 .overlay-content {
-    padding: 80px 120px; /* Apply padding to the group */
+    padding: 80px 120px; 
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -599,6 +627,7 @@ body.mega-menu-active .fixed-header .search-button img {
     background-color: var(--primary-white);
     margin-top: 36px;
     padding: 36px;
+
 }
 
 .news-section h2 {
@@ -659,7 +688,14 @@ body.mega-menu-active .fixed-header .search-button img {
     margin-bottom: 24px; 
 }
 
-.news-content img:last-of-type {
+.news-content svg {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 24px; 
+}
+
+
+.news-c svg:last-of-type {
     margin-bottom: 0; 
     width: 40px;
     height: 40px;
@@ -926,7 +962,7 @@ body.mega-menu-active .fixed-header .search-button img {
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
-    height: auto; /* Set the height to auto to adjust based on content */
+    height: auto;
 }
 
 .logo img {

@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allskog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="desktop.css" media="(min-width: 1240px)">
+    <link rel="stylesheet" type="text/css" href="mobile.css" media="(max-width: 768px)">
+    <link rel="stylesheet" href="variables.css">
+</head>
+<body>
+    <header class="fixed-header">
+        <div class="logo">
+            <img src="assets/Logo.png" alt="Allskog Logo">
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li class="search-button">
+                    <p>Søk</p>
+                    <div class="search-icon-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 22 22" fill="none">
+                            <path d="M16 16L21 21" stroke="#301B0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M1 9.57143C1 14.3053 4.83756 18.1429 9.57143 18.1429C11.9424 18.1429 14.0887 17.1801 15.6404 15.6243C17.1869 14.0739 18.1429 11.9343 18.1429 9.57143C18.1429 4.83756 14.3053 1 9.57143 1C4.83756 1 1 4.83756 1 9.57143Z" stroke="#301B0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </li>                
+                <li class="login-button">
+                    Logg Inn
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                        <path d="M11 1C5.47715 1 1 5.47715 1 11C1 16.5228 5.47715 21 11 21C16.5228 21 21 16.5228 21 11C21 5.47715 16.5228 1 11 1Z" stroke="#301B0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M3.27148 17.3455C3.27148 17.3455 5.5005 14.4998 11.0005 14.4998C16.5005 14.4998 18.7296 17.3455 18.7296 17.3455" stroke="#301B0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M11.002 11.0002C12.6589 11.0002 14.002 9.65714 14.002 8.00024C14.002 6.34339 12.6589 5.00024 11.002 5.00024C9.34505 5.00024 8.00195 6.34339 8.00195 8.00024C8.00195 9.65714 9.34505 11.0002 11.002 11.0002Z" stroke="#301B0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>                      
+                </li>
+                <li class="menu-button" id="menuButton">
+                    <span class="menu-icon">&#9776;</span> Meny
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="mega-menu" id="megaMenu">
+        <div class="mega-menu-information">
+            <div class="mega-menu-columns">
+                <div class="mega-menu-column">
+                    <h3>Skogtjenester</h3>
+                    <div class="mega-menu-columns-info">
+                        <p>Skogbruksplanlegging</p>
+                        <p>Skogsdrift, hogst og<br> tømmersalg</p>
+                        <p>Hjelp til tømmeroppgjør</p>
+                        <p>Skogkultur, planting og pleie</p>
+                        <p>Frivillig vern av skog</p>
+                        <p>Reguleringsplan for areal</p>
+                    </div>
+                </div>
+                <div class="mega-menu-column">
+                    <h3>Bli andelseier</h3>
+                    <div class="mega-menu-columns-info">
+                        <p>Skogeierlag</p>
+                        <p>Skogforsikring</p>
+                        <p>Tømmertransport</p>
+                        <p>Kartlegging av eiendom</p>
+                    </div>
+                </div>
+                <div class="mega-menu-column">
+                    <h3>Bærekraft og miljø</h3>
+                    <div class="mega-menu-columns-info">
+                        <p>Sertifisering av tømmer</p>
+                        <p>Miljøkrav</p>
+                        <p>Biologisk mangfold</p>
+                        <p>Skog og klima</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <main>
+        <section class="content">
+            <div class="image-container">
+                <img src="assets/Banner.png" alt="Image description">
+            </div>
+            <div class="info-square">
+                <div class="info-texts">
+                    <h1>Allskog er et samvirke av og for skogeiere</h1>
+                    <p>Vi er en robust organisasjon med høy kompetanse innen alle skogtjenester du trenger som skogeier.</p>
+                </div>
+            </div>
+            <div class="list-section">
+                <div class="column">
+                    <div class="points">
+                        <div class="points-content">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 41 41" fill="none">
+                                <line x1="1.88867" y1="20.981" x2="21.8926" y2="20.981" stroke="#301B0A" stroke-width="2"/>
+                                <path d="M37.999 19.1912C39.1907 19.9824 39.1907 21.7324 37.999 22.5236L24.2003 31.6853C22.871 32.5679 21.0941 31.6148 21.0941 30.0191L21.0941 11.6957C21.0941 10.1001 22.871 9.14693 24.2003 10.0296L37.999 19.1912Z" stroke="#301B0A" stroke-width="2"/>
+                            </svg>
+                            <p>Skogtjenester</p>
+                        </div>
+                    </div>                    
+                    <div class="points">
+                        <div class="points-content">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 41 41" fill="none">
+                                <line x1="1.88867" y1="20.981" x2="21.8926" y2="20.981" stroke="#301B0A" stroke-width="2"/>
+                                <path d="M37.999 19.1912C39.1907 19.9824 39.1907 21.7324 37.999 22.5236L24.2003 31.6853C22.871 32.5679 21.0941 31.6148 21.0941 30.0191L21.0941 11.6957C21.0941 10.1001 22.871 9.14693 24.2003 10.0296L37.999 19.1912Z" stroke="#301B0A" stroke-width="2"/>
+                            </svg>
+                            <p>Veiledning</p>
+                        </div>
+                    </div>
+                    <div class="points">
+                        <div class="points-content">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 41 41" fill="none">
+                                <line x1="1.88867" y1="20.981" x2="21.8926" y2="20.981" stroke="#301B0A" stroke-width="2"/>
+                                <path d="M37.999 19.1912C39.1907 19.9824 39.1907 21.7324 37.999 22.5236L24.2003 31.6853C22.871 32.5679 21.0941 31.6148 21.0941 30.0191L21.0941 11.6957C21.0941 10.1001 22.871 9.14693 24.2003 10.0296L37.999 19.1912Z" stroke="#301B0A" stroke-width="2"/>
+                            </svg>
+                            <p>Bli andelseier</p>
+                        </div>
+                    </div>
+                    <div class="points">
+                        <div class="points-content">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 41 41" fill="none">
+                                <line x1="1.88867" y1="20.981" x2="21.8926" y2="20.981" stroke="#301B0A" stroke-width="2"/>
+                                <path d="M37.999 19.1912C39.1907 19.9824 39.1907 21.7324 37.999 22.5236L24.2003 31.6853C22.871 32.5679 21.0941 31.6148 21.0941 30.0191L21.0941 11.6957C21.0941 10.1001 22.871 9.14693 24.2003 10.0296L37.999 19.1912Z" stroke="#301B0A" stroke-width="2"/>
+                            </svg>
+                            <p>Finn skogbruksleder</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="points">
+                        <div class="points-content">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 41 41" fill="none">
+                                <line x1="1.88867" y1="20.981" x2="21.8926" y2="20.981" stroke="#301B0A" stroke-width="2"/>
+                                <path d="M37.999 19.1912C39.1907 19.9824 39.1907 21.7324 37.999 22.5236L24.2003 31.6853C22.871 32.5679 21.0941 31.6148 21.0941 30.0191L21.0941 11.6957C21.0941 10.1001 22.871 9.14693 24.2003 10.0296L37.999 19.1912Z" stroke="#301B0A" stroke-width="2"/>
+                            </svg>
+                            <p>Om Allskog</p>
+                        </div>
+                    </div>
+                    <div class="points">
+                        <div class="points-content">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 41 41" fill="none">
+                                <line x1="1.88867" y1="20.981" x2="21.8926" y2="20.981" stroke="#301B0A" stroke-width="2"/>
+                                <path d="M37.999 19.1912C39.1907 19.9824 39.1907 21.7324 37.999 22.5236L24.2003 31.6853C22.871 32.5679 21.0941 31.6148 21.0941 30.0191L21.0941 11.6957C21.0941 10.1001 22.871 9.14693 24.2003 10.0296L37.999 19.1912Z" stroke="#301B0A" stroke-width="2"/>
+                            </svg>
+                            <p>Bærekraft og miljø</p>
+                        </div>
+                    </div>
+                    <div class="points">
+                        <div class="points-content">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 41 41" fill="none">
+                                <line x1="1.88867" y1="20.981" x2="21.8926" y2="20.981" stroke="#301B0A" stroke-width="2"/>
+                                <path d="M37.999 19.1912C39.1907 19.9824 39.1907 21.7324 37.999 22.5236L24.2003 31.6853C22.871 32.5679 21.0941 31.6148 21.0941 30.0191L21.0941 11.6957C21.0941 10.1001 22.871 9.14693 24.2003 10.0296L37.999 19.1912Z" stroke="#301B0A" stroke-width="2"/>
+                            </svg>
+                            <p>Arrangementer</p>
+                        </div>
+                    </div>
+                    <div class="points">
+                        <div class="points-content">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 41 41" fill="none">
+                                <line x1="1.88867" y1="20.981" x2="21.8926" y2="20.981" stroke="#301B0A" stroke-width="2"/>
+                                <path d="M37.999 19.1912C39.1907 19.9824 39.1907 21.7324 37.999 22.5236L24.2003 31.6853C22.871 32.5679 21.0941 31.6148 21.0941 30.0191L21.0941 11.6957C21.0941 10.1001 22.871 9.14693 24.2003 10.0296L37.999 19.1912Z" stroke="#301B0A" stroke-width="2"/>
+                            </svg>
+                            <p>Aktuelt</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    
+            <section class="rectangle-container">
+                <div class="rectangle active">
+                  <div class="rectangle-content">
+                    <h1>70</h1>
+                    <p>skogeierlag</p>
+                  </div>
+                </div>
+                <div class="rectangle">
+                  <div class="rectangle-content">
+                    <h1>7.600</h1>
+                    <p>andelseiere</p>
+                  </div>
+                </div>
+                <div class="rectangle">
+                  <div class="rectangle-content">
+                    <h1>1 Million</h1>
+                    <p>m3 tømmer per år</p>
+                  </div>
+                </div>
+                <div class="dot-menu">
+                  <div class="dot"></div>
+                  <div class="dot"></div>
+                  <div class="dot"></div>
+                </div>
+              </section>
+              
+
+            <section class="large-rectangle">
+                <div class="large-rectangle-content">
+                    <h1>Finn din skogbruksleder</h1>
+                    <p>Søk etter postnummer, region eller fylke</p>
+                <div class="search-bar">
+                    <input type="text" placeholder="Skriv søkeord">
+                    <button>Søk</button>
+                </div>
+            </section>
+            <section class="second-group">
+                <div class="image-element">
+                    <img src="assets/image-1.png" alt="Image description" width="590" height="590">
+                </div>
+                <div class="text-column">
+                    <div class="overlay-box">
+                        <div class="overlay-content">
+                            <h2>Lyst til å bli andelseier i Allskog?</h2>
+                            <p>Hvis du eier skog, kan du melde deg inn i<br> Allskog. Da blir du medeier av skogfellesskapet i<br> Norge.</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
+                                <line x1="1.89453" y1="25.1366" x2="21.8926" y2="25.1366" stroke="#301B0A" stroke-width="2.5"/>
+                                <path d="M44.605 22.5665C46.2435 23.6544 46.2435 26.0606 44.605 27.1485L25.5918 39.7724C23.7639 40.986 21.3207 39.6754 21.3207 37.4814L21.3207 12.2336C21.3207 10.0395 23.7639 8.72895 25.5918 9.94256L44.605 22.5665Z" stroke="#301B0A" stroke-width="2.5"/>
+                              </svg>
+                        </div>
+                    </div>
+                </div>
+            </section>    
+            <section class="third-group">
+                <div class="green-box-1">
+                    <div class="content-container">
+                        <h3>Skal du plante ny skog?</h3>
+                        <p>Etter hogst skal det plantes innen tre år. Skal du<br> plante selv denne sesongen, må du bestille planter<br> innen 15. april.</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 41 41" fill="none">
+                            <line x1="1.88867" y1="20.981" x2="21.8926" y2="20.981" stroke="#301B0A" stroke-width="2"/>
+                            <path d="M37.999 19.1912C39.1907 19.9824 39.1907 21.7324 37.999 22.5236L24.2003 31.6853C22.871 32.5679 21.0941 31.6148 21.0941 30.0191L21.0941 11.6957C21.0941 10.1001 22.871 9.14693 24.2003 10.0296L37.999 19.1912Z" stroke="#301B0A" stroke-width="2"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="green-box-2">
+                    <div class="content-container">
+                    <h3>Er skogen moden for hogst?<br>Avtal hogst nå.</h3>
+                    <p>Vurderer du å ta ut tømmer fra skogen din? Ta<br> gjerne en prat med en av våre dyktige<br> skogbruksledere. Fra oss i Allskog får du solid<br> veiledning, basert på skogfaglig erfaring og<br> kunnskap.</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 41 41" fill="none">
+                        <line x1="1.88867" y1="20.981" x2="21.8926" y2="20.981" stroke="#301B0A" stroke-width="2"/>
+                        <path d="M37.999 19.1912C39.1907 19.9824 39.1907 21.7324 37.999 22.5236L24.2003 31.6853C22.871 32.5679 21.0941 31.6148 21.0941 30.0191L21.0941 11.6957C21.0941 10.1001 22.871 9.14693 24.2003 10.0296L37.999 19.1912Z" stroke="#301B0A" stroke-width="2"/>
+                    </svg>
+                </div>
+            </section>
+            <section class="news-section">
+                <h2>Nyheter</h2>
+                <div class="news-grid">
+                    <div class="news-box">
+                        <div class="news-content">
+                            <img src="assets/News Image 1.png" alt="News Image" width="318" height="220">
+                            <p class="news-date">17. APRIL 2023</p>
+                            <h4 class="news-title">Går med rekordoverskudd: – Skogeiere har vært lojale til samvirket</h4>
+                            <p class="news-description">Allskog legger bak seg et av mest innbringende år noensinne som konsern. 
+                                For femte år på rad kan 7 500 skogeiere nord for Stad og Dovre få utbetalt utbytte fra samvirket.</p>
+                            <img src="assets/Arrow internal link.png" alt="Icon" width="40" height="40">
+                        </div>
+                    </div>
+                    <div class="news-box">
+                        <div class="news-content">
+                            <img src="assets/News Image 2.png" alt="News Image" width="318" height="220">
+                            <p class="news-date">17. APRIL 2023</p>
+                            <h4 class="news-title">Bruk rabatten din på kurs i norsk PEFC skogstandard</h4>
+                            <p class="news-description">Skal du hogge selv og levere tømmer? Nå får alle som driver i skogen tilbud om kurs i den nye skogstandarden. Som andelseier i ALLSKOG får du kurset til rabattert pris.</p>
+                            <img src="assets/Arrow internal link.png" alt="Icon" width="40" height="40">
+                        </div>
+                    </div>
+                    <div class="news-box">
+                        <div class="news-content">
+                            <img src="assets/News Image 3.png" alt="News Image" width="318" height="220">
+                            <p class="news-date">17. APRIL 2023</p>
+                            <h4 class="news-title">Dette bør du vite om nye miljøhensyn i skogen</h4>
+                            <p class="news-description">Alt tømmer som ALLSKOG omsetter, er miljøsertifisert etter Norsk PEFC Skogstandard. Industrien og for forbrukerne skal vite at virket kommer fra skog drevet på bærekraftig vis. </p>
+                            <img src="assets/Arrow internal link.png" alt="Icon" width="40" height="40">
+                        </div>
+                    </div>
+                </div>
+                <div class="news-button-section">
+                    <div class="news-button">
+                        <p>Se alle nyheter</p>
+                    </div>
+                </div>                
+            </section>
+            <section class="upcoming-events-section">
+                <h2>Kommende arrangementer</h2>
+                <div class="upcoming-events-grid">
+                    <div class="upcoming-box">
+                        <div class="agenda-column">
+                            <div class="date-square">
+                                <p class="date-text">9. mai</p>
+                            </div>
+                            <h3>Temakveld: Etablering av nytt sagbruk i Vefsn</h3>
+                        </div>
+                        <div class="description-column">
+                            <div class="description-text">
+                                <p>Vefsn skogeierlag inviterer til temakveld,<br> etablering av nytt sagbruk i Vefsn.</p>
+                            </div>
+                            <div class="description-icons">
+                                <div class="description-group">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                        <path d="M20.7027 10.7098C20.7027 15.0465 12.8504 22.4883 12.8504 22.4883C12.8504 22.4883 4.99805 15.0465 4.99805 10.7098C4.99805 6.37303 8.51366 2.85742 12.8504 2.85742C17.1871 2.85742 20.7027 6.37303 20.7027 10.7098Z" stroke="#301B0A" stroke-width="2"/>
+                                        <path d="M12.8507 11.6916C13.3928 11.6916 13.8322 11.2522 13.8322 10.7101C13.8322 10.168 13.3928 9.72852 12.8507 9.72852C12.3086 9.72852 11.8691 10.168 11.8691 10.7101C11.8691 11.2522 12.3086 11.6916 12.8507 11.6916Z" fill="#301B0A" stroke="#301B0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                      </svg>
+                                    <p class="description-group-text">Mosjøen videregående skole avd. Marka (Landbruksskolen)</p>
+                                </div>
+                                <div class="description-group">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                        <path d="M16.0085 4.96269V2.85742M16.0085 4.96269V7.06795M16.0085 4.96269H11.2717M3.37695 11.2785V20.7522C3.37695 21.9149 4.31951 22.8574 5.48222 22.8574H20.2191C21.3818 22.8574 22.3243 21.9149 22.3243 20.7522V11.2785H3.37695Z" stroke="#301B0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M3.37695 11.2767V7.0662C3.37695 5.9035 4.31951 4.96094 5.48222 4.96094H7.58748" stroke="#301B0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M7.58789 2.85742V7.06795" stroke="#301B0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M22.324 11.2767V7.0662C22.324 5.9035 21.3814 4.96094 20.2187 4.96094H19.6924" stroke="#301B0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                      </svg>
+                                    <p class="description-group-text">9. mai</p>
+                                </div>
+                                <div class="description-group">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                        <path d="M17.8496 13.8574H12.8496V8.85742" stroke="#301B0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M5.85156 4.35741L7.85155 2.85742" stroke="#301B0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M19.8506 4.35741L17.8506 2.85742" stroke="#301B0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12.8505 22.8573C17.8211 22.8573 21.8504 18.8279 21.8504 13.8574C21.8504 8.88683 17.8211 4.85742 12.8505 4.85742C7.87999 4.85742 3.85059 8.88683 3.85059 13.8574C3.85059 18.8279 7.87999 22.8573 12.8505 22.8573Z" stroke="#301B0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                      </svg>
+                                    <p class="description-group-text">Kl. 19.00 - 21.00</p>
+                                </div>
+                            </div>
+                        </div>                        
+                        <div class="icon-column">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 41 41" fill="none">
+                                <line x1="1.88867" y1="20.981" x2="21.8926" y2="20.981" stroke="#301B0A" stroke-width="2"/>
+                                <path d="M37.999 19.1912C39.1907 19.9824 39.1907 21.7324 37.999 22.5236L24.2003 31.6853C22.871 32.5679 21.0941 31.6148 21.0941 30.0191L21.0941 11.6957C21.0941 10.1001 22.871 9.14693 24.2003 10.0296L37.999 19.1912Z" stroke="#301B0A" stroke-width="2"/>
+                            </svg>
+                        </div>
+                    </div>                                       
+                    <div class="upcoming-box">
+                        <div class="agenda-column">
+                            <div class="date-square-2">
+                                <p class="date-text">24.- 25 mai</p>
+                            </div>
+                            <h3>Elgbeitetaksering i Hattfjelldal, 24. og 25. mai 2023</h3>
+                        </div>
+                        <div class="description-column">
+                            <div class="description-text">
+                                <p>Vefsn skogeierlag inviterer til temakveld,<br> etablering av nytt sagbruk i Vefsn.</p>
+                            </div>
+                            <div class="description-icons">
+                                <div class="description-group">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                        <path d="M20.7027 10.7098C20.7027 15.0465 12.8504 22.4883 12.8504 22.4883C12.8504 22.4883 4.99805 15.0465 4.99805 10.7098C4.99805 6.37303 8.51366 2.85742 12.8504 2.85742C17.1871 2.85742 20.7027 6.37303 20.7027 10.7098Z" stroke="#301B0A" stroke-width="2"/>
+                                        <path d="M12.8507 11.6916C13.3928 11.6916 13.8322 11.2522 13.8322 10.7101C13.8322 10.168 13.3928 9.72852 12.8507 9.72852C12.3086 9.72852 11.8691 10.168 11.8691 10.7101C11.8691 11.2522 12.3086 11.6916 12.8507 11.6916Z" fill="#301B0A" stroke="#301B0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                      </svg>
+                                    <p class="description-group-text">Fjellfolkets Hus, Adr. Hattfjelldalsvollen 1, Hattfjelldal.</p>
+                                </div>
+                                <div class="description-group">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                        <path d="M16.0085 4.96269V2.85742M16.0085 4.96269V7.06795M16.0085 4.96269H11.2717M3.37695 11.2785V20.7522C3.37695 21.9149 4.31951 22.8574 5.48222 22.8574H20.2191C21.3818 22.8574 22.3243 21.9149 22.3243 20.7522V11.2785H3.37695Z" stroke="#301B0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M3.37695 11.2767V7.0662C3.37695 5.9035 4.31951 4.96094 5.48222 4.96094H7.58748" stroke="#301B0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M7.58789 2.85742V7.06795" stroke="#301B0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M22.324 11.2767V7.0662C22.324 5.9035 21.3814 4.96094 20.2187 4.96094H19.6924" stroke="#301B0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                      </svg>
+                                    <p class="description-group-text">Onsdag 24. mai og torsdag 25. mai</p>
+                                </div>
+                                <div class="description-group">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                        <path d="M17.8496 13.8574H12.8496V8.85742" stroke="#301B0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M5.85156 4.35741L7.85155 2.85742" stroke="#301B0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M19.8506 4.35741L17.8506 2.85742" stroke="#301B0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12.8505 22.8573C17.8211 22.8573 21.8504 18.8279 21.8504 13.8574C21.8504 8.88683 17.8211 4.85742 12.8505 4.85742C7.87999 4.85742 3.85059 8.88683 3.85059 13.8574C3.85059 18.8279 7.87999 22.8573 12.8505 22.8573Z" stroke="#301B0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                      </svg>
+                                    <p class="description-group-text">Kl. 09.00-15.00 begge dager</p>
+                                </div>
+                            </div>
+                        </div>   
+                        <div class="icon-column">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" fill="none">
+                                <line x1="1.84668" y1="20.981" x2="21.8506" y2="20.981" stroke="#301B0A" stroke-width="2"/>
+                                <path d="M37.957 19.1912C39.1487 19.9824 39.1487 21.7324 37.957 22.5236L24.1583 31.6852C22.829 32.5679 21.0521 31.6147 21.0521 30.0191L21.0521 11.6957C21.0521 10.1 22.829 9.14687 24.1583 10.0295L37.957 19.1912Z" stroke="#301B0A" stroke-width="2"/>
+                              </svg>
+                        </div>
+                    </div>
+                    <div class="agenda-button-section">
+                        <button class="agenda-button">
+                            <span class="agenda-button-text">Se alle arrangementer</span>
+                        </button>
+                    </div>                                                        
+                </div>
+            </section>                                             
+            </section>
+    </main>
+    <footer class="footer-section">
+        <div class="footer-content-wrapper">
+            <div class="logo">
+                <img src="assets/logo.png" alt="Allskog Logo" width="150" height="27.328">
+            </div>
+            <div class="footer-columns">
+                <div class="address-column">
+                    <h3>Adresse</h3>
+                    <p>Ingvald Ystgaards vei 13A,</p>
+                    <p>7047 Trondheim</p>
+                </div>
+                <div class="contact-column">
+                    <h3>Kontakt</h3>
+                    <p>Telefon: 73 500 123</p>
+                    <p>firmapost@allskog.no</p>
+                    <p>Veibeskrivelse</p>
+                </div>
+                <div class="follow-column">
+                    <h3>Følg oss</h3>
+                    <p><img src="assets/facebook icon.png" alt="Facebook Icon" width="24" height="24"> Facebook</p>
+                    <p><img src="assets/youtube icon.png" alt="Youtube Icon" width="24" height="24"> Youtube</p>
+                </div>
+            </div>
+            <p class="privacy-text"><a href="https://www.allskog.no/personvernerklaering-allskog-sa" target="_blank">Personvern</a> © 2023 Allskog SA</p>
+        </div>
+    </footer>    
+    <script src="script.js"></script>
+</body>
+</html>

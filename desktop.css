@@ -349,7 +349,7 @@ body.mega-menu-active .fixed-header .search-button img {
     padding: 48px;
 }
 
-.rectangle-content h1 {
+.rectangle-content h2 {
     font-size: 74px;
     font-weight: 500;
     margin: 0;
@@ -375,7 +375,7 @@ body.mega-menu-active .fixed-header .search-button img {
     padding: 100px 217px;
 }
 
-.large-rectangle h1 {
+.large-rectangle h2 {
     font-size: 38px;
     font-weight: 500;
     margin: 0;

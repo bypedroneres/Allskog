@@ -27,18 +27,26 @@ The design of the Allskog Brand Website embodies the company's values of nature 
 * <b>JavaScript Enhancements:</b> JavaScript is employed to add interactive elements and dynamic content, enhancing the user experience and engagement.
 * <b>Responsive Design:</b> The website is designed to be responsive across various devices, ensuring consistent functionality and aesthetics.
 
+<h4>✹ Desktop Gallery ✹ </h4>
+
+<div class="desktop gallery">
+  <img class="CoverImage" src="github-images/Agenda page.png" alt="Agenda">
+  <img class="CoverImage" src="github-images/News page.png" alt="News">
+  <img class="CoverImage" src="github-images/Shareholders page.png" alt="Shareholders">
+  <img class="CoverImage" src="github-images/Search page.png" alt="Search">
+  <img class="CoverImage" src="github-images/Footer Desktop.png" alt="Footer">
+</div>
+
+<h4>✹ Mobile Gallery ✹ </h4>
+
+
+<div class="mobile gallery">
+  <img class="CoverImage" src="github-images/Mobile version full.png" alt="Full">
+  <img class="CoverImage" src="github-images/Agenda page mobile.png" alt="Agenda">
+</div>
+
 <h4>✹ Link to the Project ✹</h4>
 
-<h4>✹ Gallery ✹ </h4>
-
-<div class="gallery">
-  <img class="CoverImage" src="github-images/Home page.png" alt="Cover">
-  <img class="CoverImage" src="github-images/Home page.png" alt="Cover">
-  <img class="CoverImage" src="github-images/Home page.png" alt="Cover">
-  <img class="CoverImage" src="github-images/Home page.png" alt="Cover">
-  <img class="CoverImage" src="github-images/Home page.png" alt="Cover">
-  <img class="CoverImage" src="github-images/Home page.png" alt="Cover">
-  
 <h5>https://bypedroneres.github.io/Allskog/</h5>
 
 <h4>✹ Thank you for Exploring! ✹</h4>

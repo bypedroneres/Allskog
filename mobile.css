@@ -1,13 +1,15 @@
 body {
     background-color: var(--primary-white);
-    color: #301B0A;
+    color:var(--primary-black);
     font-family: "Albert Sans", sans-serif;
     font-weight: 500;
     margin: 0;
     padding: 0;
     width: 390px;
+    overflow-x: hidden;
     height: 6739px;
 }
+
 
 /* HEADER */
 
